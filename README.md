@@ -1,5 +1,6 @@
 # socialmedia-messageboard
 -preston norskog
+-richard cardelli
 
 
 ## Getting started
