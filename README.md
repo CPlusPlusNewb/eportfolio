@@ -1,5 +1,6 @@
 # socialmedia-messageboard
 -preston norskog
+- Jordan Bassett
 
 
 ## Getting started
