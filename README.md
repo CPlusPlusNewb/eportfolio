@@ -3,6 +3,7 @@
 -richard cardelli
 -Hannah Brady
 -Mohammed Habib
+- Ian Luna Quiroz
 
 
 ## Getting started
