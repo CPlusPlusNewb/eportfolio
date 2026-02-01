@@ -1,6 +1,6 @@
 # socialmedia-messageboard
 -preston norskog
--Hannah Brady
+-Hannah Brady-
 
 
 ## Getting started
