@@ -7,6 +7,7 @@
 - Richard Ozanich
 - Ian Luna Quiroz
 -Lizbeth Garcia Lopez
+- Liban Hussein 
 
 ## Getting started
 
