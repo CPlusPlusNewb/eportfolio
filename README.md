@@ -8,6 +8,7 @@
 - Ian Luna Quiroz
 - Lizbeth Garcia Lopez
 - Liban Hussein 
+- Hunter Hill
 
 ## Getting started
 
