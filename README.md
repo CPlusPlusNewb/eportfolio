@@ -10,6 +10,7 @@
 - Liban Hussein 
 - Hunter Hill
 - Tayler Caufield 
+- Jaison Macias
 
 ## Getting started
 
