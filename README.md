@@ -5,6 +5,7 @@
 -Mohammed Habib
 -Jefferson Reyes
 - Ian Luna Quiroz
+-Lizbeth Garcia Lopez
 
 
 ## Getting started
