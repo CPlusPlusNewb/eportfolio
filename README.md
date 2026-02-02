@@ -4,7 +4,7 @@
 -Hannah Brady
 -Mohammed Habib
 - Ian Luna Quiroz
-
+-Jefferson Reyes
 
 ## Getting started
 
