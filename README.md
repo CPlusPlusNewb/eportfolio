@@ -1,11 +1,11 @@
 # socialmedia-messageboard
--preston norskog
--richard cardelli
--Hannah Brady
--Mohammed Habib
--Jefferson Reyes
+- preston norskog
+- richard cardelli
+- Hannah Brady
+- Mohammed Habib
+- Jefferson Reyes
+- Richard Ozanich
 - Ian Luna Quiroz
-
 
 ## Getting started
 
