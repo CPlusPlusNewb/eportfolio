@@ -6,7 +6,7 @@
 - Jefferson Reyes
 - Richard Ozanich
 - Ian Luna Quiroz
--Lizbeth Garcia Lopez
+- Lizbeth Garcia Lopez
 - Liban Hussein 
 
 ## Getting started
