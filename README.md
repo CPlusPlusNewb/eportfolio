@@ -9,7 +9,8 @@
 - Lizbeth Garcia Lopez
 - Liban Hussein 
 - Hunter Hill
--Jaison Macias
+- Tayler Caufield 
+- Jaison Macias
 
 ## Getting started
 
