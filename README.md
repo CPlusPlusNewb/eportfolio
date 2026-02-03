@@ -12,6 +12,7 @@
 - Tayler Caufield 
 - Jaison Macias
 - Jordan Bassett
+- Jose Castillo-Flores
 
 ## Getting started
 
