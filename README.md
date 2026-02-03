@@ -12,6 +12,7 @@
 - Tayler Caufield 
 - Jaison Macias
 - Jordan Bassett
+- Annabelle Navarro
 
 ## Getting started
 
