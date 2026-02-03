@@ -11,6 +11,7 @@
 - Hunter Hill
 - Tayler Caufield 
 - Jaison Macias
+- Jordan Bassett
 
 ## Getting started
 
