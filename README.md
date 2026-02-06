@@ -13,6 +13,7 @@
 - Jaison Macias
 - Jordan Bassett
 - Annabelle Navarro
+- Jose Castillo-Flores
 
 ## Getting started
 
