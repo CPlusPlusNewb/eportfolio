@@ -15,6 +15,7 @@
 - Aidan Green
 - Annabelle Navarro
 - Jose Castillo-Flores
+- Jerod Beden
 
 ## Getting started
 
