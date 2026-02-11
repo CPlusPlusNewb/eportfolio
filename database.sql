@@ -5,12 +5,16 @@ Use SocialMediadb;
 -- Creating the tables 
 -- The Use table 
 CREATE TABLE User (
-    user_id INT AUTO_INCREMENT PRIMARY KEY
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_Name CHAR(20), --lets users search for others by first name (optional)
+    last_Name CHAR(20), -- lets users search for others by last name (optional)
+    email CHAR(20)
 );
 -- Post table
 CREATE TABLE Post (
     post_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT,
+    location CHAR(20), --lets users search for posts in a particular area (optional)
     FOREIGN KEY (user_id) REFERENCES User(user_id)
 );
 -- Bookmarks table 
