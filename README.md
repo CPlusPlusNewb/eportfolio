@@ -16,6 +16,7 @@
 - Annabelle Navarro
 - Jose Castillo-Flores
 - Jerod Beden
+- Jose Ramos
 
 ## Getting started
 
