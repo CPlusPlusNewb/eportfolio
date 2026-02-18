@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TBD Site Name</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css" />
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> <!-- Feed of other posts (HB)-->
+                    <li><a href="UserPost.html" class="active">Post</a></li>
+                    <li><a href="UserAccount.html">My Account</a></li>
+                </ul>
+            </nav>
+        <div class="rainbow-line"></div>
+        </header> 
+        
+        <h2>Create a Post</h2><!-- User Post page (HB)-->
+        <form id="postForm">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="description" placeholder="Tell us what you did today!" required></textarea>
+            <div style="text-align: center;">
+                <button type="submit">Post</button>
+                <button type="reset">Clear Post</button>
+            </div>
+        </form>
+        
+        <script src="assets/ReadPost.js"></script> 
+        <script src="assets/WritePost.js"></script>   
+    </body>
+</html>

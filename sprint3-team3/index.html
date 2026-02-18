@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TBD Site Name</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li> 
+                    <li><a href="UserPost.html">Post</a></li>
+                    <li><a href="UserAccount.html">My Account</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="rainbow-line"></div>
+        <div class="container">
+            <h2>Explore</h2>   
+            <div style="text-align:center; margin-bottom: 30px; ">
+                <button id="clearPostsBtn", style="display: inline-block;">Refresh</button>
+                <!--<button id="delPostsBtn", style="display: inline-block;">Delete all posts</button><!-- debug code-->
+            </div>     
+            <div id="postContainer"></div>
+        </div>
+        <script src="assets/ReadPost.js"></script>
+    </body>
+</html>
