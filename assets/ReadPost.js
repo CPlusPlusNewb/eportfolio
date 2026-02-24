@@ -27,15 +27,15 @@ window.addEventListener("DOMContentLoaded", function()
                         posts.forEach(post => 
                         {
                             const is_bookmarked = bookmarked_ids.includes(post.post_id);
-                            const postDiv = document.createElement("div");
-                            postDiv.className = "post" + (is_bookmarked ? " bookmarked" : "");
-                            postDiv.innerHTML = `
+                            const postdiv = document.createElement("div");
+                            postdiv.className = "post" + (is_bookmarked ? " bookmarked" : "");
+                            postdiv.innerHTML = `
                                 <div class="username">${post.username}</div>
                                 <div class="description">${post.description}</div>
                                 <div class="datetime">${post.post_date} ${post.post_time}</div>
                                 <div class="stats">❤️ ${post.likes} | 🔖 ${post.bookmarks}${is_bookmarked ? " | <strong>Saved by you</strong>" : ""}</div>
                             `;
-                            container.appendChild(postDiv);
+                            container.appendChild(postdiv);
                         });
                     });
             })
