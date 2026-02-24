@@ -189,7 +189,7 @@ form#postForm button:active
     transform: translateY(0);
 }
 
-#clearPostsBtn, #delPostsBtn
+#clearpostsbtn, #delPostsBtn
 {
     padding: 12px 28px;
     background: #a855f7;
@@ -204,13 +204,13 @@ form#postForm button:active
     margin: 0 auto 40px; /* Centered with bottom margin */
 }
 
-#clearPostsBtn:hover, #delPostsBtn:hover
+#clearpostsbtn:hover, #delPostsBtn:hover
 {
     background: #9333ea;
     transform: translateY(-1px);
 }
 
-#clearPostsBtn:active, #delPostsBtn:active
+#clearpostsbtn:active, #delPostsBtn:active
 {
     transform: translateY(0);
 }

@@ -1,8 +1,8 @@
 window.addEventListener("DOMContentLoaded", function() 
 {
-    const container = document.getElementById("postContainer");
-    const clearBtn = document.getElementById("clearPostsBtn");
-    const delposts = document.getElementById("delPostsBtn");
+    const container = document.getElementById("postcontainer");
+    const clearBtn = document.getElementById("clearpostsbtn");
+    //const delposts = document.getElementById("delPostsBtn");
 
     const user_id = 1;
 
