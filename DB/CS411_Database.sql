@@ -56,10 +56,10 @@ CREATE TABLE IF NOT EXISTS `post` (
   `post_id` int NOT NULL AUTO_INCREMENT,
   `user_id` int NOT NULL,
   `description` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `post_date` date NOT NULL,
-  `post_time` time NOT NULL,
-  `likes` int NOT NULL,
-  `bookmarks` int NOT NULL,
+  `post_date` date NOT NULL DEFAULT (curdate()),
+  `post_time` time NOT NULL DEFAULT (curtime()),
+  `likes` int NOT NULL DEFAULT '0',
+  `bookmarks` int NOT NULL DEFAULT '0',
   PRIMARY KEY (`post_id`),
   KEY `fk_user_id2` (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
