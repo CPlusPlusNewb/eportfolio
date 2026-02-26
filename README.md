@@ -19,4 +19,4 @@
 - Jose Ramos
 
 # "Post" table fields
-<img src="https://cdn.discordapp.com/attachments/1465567143935479840/1472835454184456326/image.png?ex=699f3928&is=699de7a8&hm=e27e70b347fb623683b2f109850f4acfe7bfda78390242560899b81707dc4dd5">
+<img src="https://gitlab.com/cs411-winter2026/socialmedia-messageboard/-/raw/main/image.png?ref_type=heads">
