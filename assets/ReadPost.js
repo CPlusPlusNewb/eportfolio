@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", function()
                     .then(posts => 
                     {
                         container.innerHTML = "";
-                        posts.forEach(post => 
+                        /*posts.forEach(post => 
                         {
                             const is_bookmarked = bookmarked_ids.includes(post.post_id);
                             const postdiv = document.createElement("div");
@@ -36,6 +36,21 @@ window.addEventListener("DOMContentLoaded", function()
                                 <div class="stats">❤️ ${post.likes} | 🔖 ${post.bookmarks}${is_bookmarked ? " | <strong>Saved by you</strong>" : ""}</div>
                             `;
                             container.appendChild(postdiv);
+                        });*/
+                        posts.forEach(post => 
+                        {
+                            const is_bookmarked = bookmarked_ids.includes(post.post_id);
+                            container.innerHTML += `
+                                <div class="post ${is_bookmarked ? "bookmarked" : ""}">
+                                    <div class="username">${post.username}</div>
+                                    <div class="description">${post.description}</div>
+                                    <div class="datetime">${post.post_date} ${post.post_time}</div>
+                                    <div class="stats"> ❤️ ${post.likes} | 🔖 ${post.bookmarks}
+                                        ${is_bookmarked ? " | <strong>Saved by you</strong>" : ""}/div>
+                                    <button class="likeBtn">Like</button>
+                                    <button class="bookmarkBtn">Bookmark</button>
+                                </div>
+                            `;
                         });
                     });
             })
