@@ -1,30 +1,63 @@
+index.html Update:
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>TBD Site Name</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/style.css" />
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li> 
-                    <li><a href="UserPost.html">Post</a></li>
-                    <li><a href="UserAccount.html">My Account</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="rainbow-line"></div>
-        <div class="container">
-            <h2>Explore</h2>   
-            <div style="text-align:center; margin-bottom: 30px; ">
-                <button id="clearpostsbtn", style="display: inline-block;">Refresh</button>
-                <!--<button id="delPostsBtn", style="display: inline-block;">Delete all posts</button><!-- debug code-->
-            </div>     
-            <div id="postcontainer"></div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBD Site Name</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/index.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li> 
+                <li><a href="UserPost.html">Post</a></li>
+                <li><a href="UserAccount.html">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="rainbow-line"></div>
+
+    <div class="container">
+        <h2>Explore</h2>
+
+        <div style="text-align:center; margin-bottom: 30px;">
+            <button id="clearPostsBtn">Refresh</button>
+            <button id="delPostsBtn">Delete all posts</button>
         </div>
-        <script src="assets/ReadPost.js"></script>
-    </body>
+
+        <div id="postContainer"></div>
+    </div>
+
+
+    <script>
+        const clearBtn = document.getElementById('clearPostsBtn');
+        const delBtn = document.getElementById('delPostsBtn');
+
+        clearBtn.addEventListener('click', () => {
+            // backend
+            // removed loadPosts() since Feed class does all this now
+            // Clear container and refresh feed
+            const container = document.getElementById('postContainer');
+            container.innerHTML = '';
+            currentFeed.update_feed();
+        });
+
+        delBtn.addEventListener('click', () => {
+            if (confirm('Are you sure you want to delete all posts?')) {
+                //fetch('/posts', { method: 'DELETE' }) //backend
+                    //.then(() => loadPosts());
+                
+            }
+        });
+        
+        // initialize feed on page load 
+        //may be subject to change
+        const currentFeed = new Feed(1);   
+    </script>
+</body>
 </html>
