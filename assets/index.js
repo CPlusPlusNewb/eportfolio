@@ -5,7 +5,7 @@ class Feed {
 	// Public
 	feed_posts = []; // Array of posts using int IDs
 	bookmarked_ids = []; // Array of bookedmarked post_id
-	user_id - null;
+	user_id = null;
 	
 	constructor(user_id) {
 		// Potentially replace this with a sessionid check?
