@@ -13,7 +13,9 @@ This portfolio presents my academic work and hands-on projects demonstrating com
 
 A browser-based file manager served over a local Python HTTP server. The interface allows users to browse, and view files through a clean web UI without needing a dedicated hosting environment. The index changes when the user refreshes the page and if the code has actually changed on the "back-end".
 
-**How it benefited me:** This project taught me how to bridge a Python backend with a PHP-assisted front-end, and how to serve dynamic content locally without a full web stack. It deepened my understanding of how servers handle file I/O and client requests.
+**How it benefited me:** This project taught me how to bridge a Python backend with a PHP-assisted front-end, and how to serve dynamic content locally without a full web stack. It deepened my understanding of how servers handle file I/O and client requests.  
+
+<img src="image_2026-03-14_194400499.png">
 
 ---
 
@@ -25,7 +27,9 @@ A Python script that, when run in any directory without an existing `index.html`
 
 **How it benefited me:** Writing a generator that produces valid, this pushed me to deeply understand how HTML/CSS/JS are structured.
 
-**Security notes:** Exception handling is used to avoid overwriting existing files, preventing accidental data loss.
+**Security notes:** Exception handling is used to avoid overwriting existing files, preventing accidental data loss.  
+
+<img src="image_2026-03-14_193843786.png">
 
 ---
 
