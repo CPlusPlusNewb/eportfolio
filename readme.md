@@ -8,7 +8,7 @@ This portfolio presents my academic work and hands-on projects demonstrating com
 ## Projects
 
 ### 1.Front-End Programming — Local File Manager
-**Tech:** HTML, CSS, JavaScript, Python, PHP
+**Tech:** HTML, CSS, JavaScript, Python, PHP  
 **Repo:** [websitemaker python](https://github.com/CPlusPlusNewb/websitemaker_python )
 
 A browser-based file manager served over a local Python HTTP server. The interface allows users to browse, and view files through a clean web UI without needing a dedicated hosting environment.
@@ -20,7 +20,7 @@ A browser-based file manager served over a local Python HTTP server. The interfa
 ---
 
 ### 2. Back-End Programming — Python Auto-Web-Host *(Personal Project)*
-**Tech:** Python
+**Tech:** Python  
 **Repo:** [websitemaker python](https://github.com/CPlusPlusNewb/websitemaker_python )
 
 A Python script that, when run in any directory without an existing `index.html`, automatically generates `index.html`, `style.css`, and `scripts.js` -- creating a ready-to-serve static site from scratch. No templates, no frameworks, no manual setup.
