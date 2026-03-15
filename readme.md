@@ -7,9 +7,9 @@ This portfolio presents my academic work and hands-on projects demonstrating com
 
 ## Projects
 
-### 1. 🖥️ Front-End Programming — Local File Manager
+### 1.Front-End Programming — Local File Manager
 **Tech:** HTML, CSS, JavaScript, Python, PHP
-
+https://github.com/CPlusPlusNewb/websitemaker_python 
 A browser-based file manager served over a local Python HTTP server. The interface allows users to browse, view, and manage files through a clean web UI without needing a dedicated hosting environment.
 
 **How it benefited me:** This project taught me how to bridge a Python backend with a PHP-assisted front-end, and how to serve dynamic content locally without a full web stack. It deepened my understanding of how servers handle file I/O and client requests.
