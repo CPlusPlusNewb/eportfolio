@@ -23,7 +23,7 @@ A browser-based file manager served over a local Python HTTP server. The interfa
 
 A Python script that, when run in any directory without an existing `index.html`, automatically generates `index.html`, `style.css`, and `scripts.js` -- creating a ready-to-serve static site from scratch. No templates, no frameworks, no manual setup.
 
-**How it benefited me:** Writing a generator that produces valid, structured web files programmatically pushed me to deeply understand how HTML/CSS/JS are structured. It also introduced me to file I/O automation and the concept of scaffolding tools.
+**How it benefited me:** Writing a generator that produces valid, this pushed me to deeply understand how HTML/CSS/JS are structured.
 
 **Security notes:** Exception handling is used to avoid overwriting existing files, preventing accidental data loss.
 
